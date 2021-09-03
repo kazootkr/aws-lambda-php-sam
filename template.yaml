@@ -25,8 +25,8 @@ Resources:
         Variables:
           PARAM1: VALUE
     Metadata:
-      DockerTag: go1.x-v1
-      DockerContext: ./hello-world
+      DockerTag: latest
+      DockerContext: ./src/
       Dockerfile: Dockerfile
 
 Outputs:
